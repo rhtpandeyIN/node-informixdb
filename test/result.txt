@@ -1,0 +1,171 @@
+
+[01;31mWarning[01;0m : there are 2 disabled tests
+
+Running test for [[01;29mInformix[01;0m] : test-all-data-types ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-bad-connection-string ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-basic-test ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-binding-connection-timeOut ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-binding-statement-executeSync ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-binding-transaction-commit ... [01;31mfail [01;0m 
+ [01;34mStdout: [01;0m 
+
+ [01;31mStderr: [01;0m 
+assert.js:85
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: [ { colint: 42, coldatetime: null, coltext: null },
+  { colint: 42, coldatetime: null, coltext: null } ] deepEqual []
+    at D:\NodeWork\Before Final\IfxNode\test\test-binding-transaction-commit.js:36:18
+
+Running test for [[01;29mInformix[01;0m] : test-binding-transaction-commitSync ... [01;31mfail [01;0m 
+ [01;34mStdout: [01;0m 
+Failed when rolling back
+{ Error: [Informix][Informix ODBC Driver]Driver not capable.
+    at D:\NodeWork\Before Final\IfxNode\test\test-binding-transaction-commitSync.js:17:12
+  errors: [],
+  error: '[node-ifxnjs] SQL_ERROR',
+  message: '[Informix][Informix ODBC Driver]Driver not capable.',
+  state: 'HYC00' }
+Failed when committing
+{ Error: [Informix][Informix ODBC Driver]Driver not capable.
+    at D:\NodeWork\Before Final\IfxNode\test\test-binding-transaction-commitSync.js:35:12
+  errors: [],
+  error: '[node-ifxnjs] SQL_ERROR',
+  message: '[Informix][Informix ODBC Driver]Driver not capable.',
+  state: 'HYC00' }
+
+ [01;31mStderr: [01;0m 
+
+Running test for [[01;29mInformix[01;0m] : test-blob-insert ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-blocking-issue210 ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-byte-insert ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-call-async ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-call-stmt ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-closed ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-connection-object ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-date ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-describe-column ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-describe-database ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-describe-table ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-domains-open ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-global-open-close ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-ibm-db-issue14 ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-ibm-db-issue17 ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-ibm-db-issue18 ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-instantiate-one-and-end ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-issue-54 ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-issue-get-column-value-2 ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-issue211 ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-max-pool-size ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-memory-leaks-new-objects ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-multi-open-close ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-multi-open-query-close ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-multi-openSync-closeSync ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-open-close ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-open-connectTimeout ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-openSync ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-pool-close ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-pool-connect ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-pool-idle-connection ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-pool-rollbackTransaction ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-pool-uncommited ... [01;31mfail [01;0m 
+ [01;34mStdout: [01;0m 
+[ { c1: 3, c2: 'bimal' } ]
+
+ [01;31mStderr: [01;0m 
+
+D:\NodeWork\Before Final\IfxNode\lib\odbc.js:613
+    result = self.conn.querySync(query);
+                       ^
+Error: [Informix][Informix ODBC Driver][Informix]Table (informix.mytab4) already exists in database.
+    at Database.querySync (D:\NodeWork\Before Final\IfxNode\lib\odbc.js:613:24)
+    at D:\NodeWork\Before Final\IfxNode\test\test-pool-uncommited.js:21:10
+
+Running test for [[01;29mInformix[01;0m] : test-prepareSync-multiple-execution ... [01;31mfail [01;0m 
+ [01;34mStdout: [01;0m 
+Executed iteration 1 out of 10.
+Executed iteration 2 out of 10.
+Executed iteration 3 out of 10.
+Executed iteration 4 out of 10.
+Executed iteration 5 out of 10.
+Executed iteration 6 out of 10.
+Executed iteration 7 out of 10.
+Executed iteration 8 out of 10.
+Executed iteration 9 out of 10.
+Executed iteration 10 out of 10.
+Inserted Rows = 
+[ { colint: 4, coldatetime: null, coltext: 'hello world' },
+  { colint: 4, coldatetime: null, coltext: 'hello world' },
+  { colint: 4, coldatetime: null, coltext: 'hello world' },
+  { colint: 4, coldatetime: null, coltext: 'hello world' },
+  { colint: 4, coldatetime: null, coltext: 'hello world' },
+  { colint: 4, coldatetime: null, coltext: 'hello world' },
+  { colint: 4, coldatetime: null, coltext: 'hello world' },
+  { colint: 4, coldatetime: null, coltext: 'hello world' },
+  { colint: 4, coldatetime: null, coltext: 'hello world' },
+  { colint: 4, coldatetime: null, coltext: 'hello world' } ]
+[Informix][Informix ODBC Driver][Informix]A character to numeric conversion process failed
+
+ [01;31mStderr: [01;0m 
+
+D:\NodeWork\Before Final\IfxNode\lib\odbc.js:833
+  self.conn.endTransactionSync(true); //rollback
+            ^
+Error: [Informix][Informix ODBC Driver]Driver not capable.
+    at Database.rollbackTransactionSync (D:\NodeWork\Before Final\IfxNode\lib\odbc.js:833:13)
+    at D:\NodeWork\Before Final\IfxNode\test\test-prepareSync-multiple-execution.js:76:16
+    at D:\NodeWork\Before Final\IfxNode\lib\odbc.js:1089:11
+
+Running test for [[01;29mInformix[01;0m] : test-promisified-connection-pool ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-query-create-table-fetchSync ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-query-create-table ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-query-drop-table ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-query-insert ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-query-select-fetch ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-query-select-fetchMode-array ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-query-select ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-queryStream ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-querySync-select-with-exception ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-querySync-select ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-require-and-end ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-sp-resultset-execute ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-sp-resultset ... [01;32msuccess [01;0m 
+Running test for [[01;29mInformix[01;0m] : test-transaction-commit-sync ... [01;31mfail [01;0m 
+ [01;34mStdout: [01;0m 
+Failed when rolling back
+{ Error: [Informix][Informix ODBC Driver]Driver not capable.
+    at Database.rollbackTransactionSync (D:\NodeWork\Before Final\IfxNode\lib\odbc.js:833:13)
+    at D:\NodeWork\Before Final\IfxNode\test\test-transaction-commit-sync.js:17:8
+    at D:\NodeWork\Before Final\IfxNode\lib\odbc.js:408:49
+  errors: [],
+  error: '[node-ifxnjs] SQL_ERROR',
+  message: '[Informix][Informix ODBC Driver]Driver not capable.',
+  state: 'HYC00' }
+Failed when committing
+{ Error: [Informix][Informix ODBC Driver]Driver not capable.
+    at Database.commitTransactionSync (D:\NodeWork\Before Final\IfxNode\lib\odbc.js:823:13)
+    at D:\NodeWork\Before Final\IfxNode\test\test-transaction-commit-sync.js:35:8
+    at D:\NodeWork\Before Final\IfxNode\lib\odbc.js:408:49
+  errors: [],
+  error: '[node-ifxnjs] SQL_ERROR',
+  message: '[Informix][Informix ODBC Driver]Driver not capable.',
+  state: 'HYC00' }
+
+ [01;31mStderr: [01;0m 
+
+Running test for [[01;29mInformix[01;0m] : test-transaction-commit ... [01;31mfail [01;0m 
+ [01;34mStdout: [01;0m 
+
+ [01;31mStderr: [01;0m 
+assert.js:85
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: [ { colint: 42, coldatetime: null, coltext: null } ] deepEqual []
+    at D:\NodeWork\Before Final\IfxNode\test\test-transaction-commit.js:34:16
+
+
+Results : 6 of 57 tests failed.
+
+Total execution time = 1 min 43 sec.

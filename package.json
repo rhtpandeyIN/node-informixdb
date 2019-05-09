@@ -1,0 +1,60 @@
+{
+  "name": "informix_db",
+  "description": "HCL/IBM Informix native node.js driver",
+  "version": "1.0.0",
+  "main": "lib/odbc.js",
+  "homepage": "https://github.com/ibmdb/node-ibm_db/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ibmdb/node-ibm_db.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ibmdb/node-ibm_db/issues"
+  },
+  "contributors": [
+    "OpenInformix",
+    "Informix",
+    "HCL",
+    "IBM"
+  ],
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "install": "node installer/driverInstall.js",
+    "test": "cd test && node run-tests.js"
+  },
+  "dependencies": {
+    "bindings": "^1.3.0",
+    "fstream": "^1.0.11",
+    "nan": "^2.11.0",
+    "q": "^1.5.1",
+    "request": "^2.88.0",
+    "targz": "^1.0.1",
+    "unzipper": "^0.8.14"
+  },
+  "keywords": [
+    "node",
+    "Informix",
+    "odbc",
+    "driver",
+    "IoT",
+    "asynchronous",
+    "synchronous",
+    "scalable",
+    "enterprise",
+    "raspberry",
+    "pi"
+  ],
+  "author": "HCL/IBM",
+  "license": "MIT",
+  "devDependencies": {
+    "async": "^2.6.1",
+    "bluebird": "^3.5.2",
+    "moment": "^2.22.2"
+  }
+}

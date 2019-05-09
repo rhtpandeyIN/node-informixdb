@@ -1,0 +1,9 @@
+{ 
+  "SERVER" : "rpdb",
+  "DATABASE" : "nodedb",
+  "UID" : "informix",
+  "PWD" : "D#st1nat1on",
+  "HOSTNAME" : "localhost",
+  "SERVICE" : 9018,
+  "PROTOCOL" : "onsoctcp" 
+}
